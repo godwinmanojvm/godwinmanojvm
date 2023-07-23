@@ -1,0 +1,90 @@
+.sidebar
+{
+flex: 1;
+border-right : 0.5px solid rgb(114, 107, 107);
+min-height: 100vh;
+hr{
+    height:0;
+    border:0.5px solid rgb(114, 107, 107);
+}
+
+.top{
+  
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .logo{
+
+        font-size: 20px;
+        font-weight: bold;
+        color: blue;
+    }
+}
+.center
+{
+    padding-left:10px;
+
+    ul
+    {
+        list-style:none;
+        margin:0px;
+        padding:0px;
+    }
+}
+
+.title
+{
+    font-size: 10px;
+    font-weight: bold;
+    color: #7c7474;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+li {
+display: flex;
+align-items: center;
+padding: 5px;
+cursor: pointer;
+span
+{
+&:hover{
+    color: #7f1a83;
+}
+}
+}
+
+.icon
+{
+    font-size: 18px;
+    color: #7451f8;
+}
+
+.bottom
+{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    .colorOption
+    {
+        width: 20px;
+        height: 20px;
+        border-radius: 5px;
+        border: 5px bold #7451f8;
+        margin: 5px;
+        cursor: pointer;
+        &:nth-child(1)
+        {
+            background-color: rgb(54, 52, 52);
+        }
+        &:nth-child(2)
+        {
+            background-color: black;
+        }
+
+    }
+}
+}
